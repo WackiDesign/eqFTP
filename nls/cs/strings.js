@@ -28,7 +28,7 @@ define({
 
     "NOT_DIAG_CONNECTED" : "Připojen k serveru.",
     "NOT_DIAG_DISCONNECTED" : "Odpojen od serveru.",
-    "NOT_DIAG_FILESDIFFERENT" : "There's a difference between local and remote files. Click here for more actions.", //NEW
+    "NOT_DIAG_FILESDIFFERENT" : "Je zde rozdíl mezi lokálními a vzdálenými soubory. Klikněte zde pro více akcí.", //NEW
 
     "PASSWDWIND_TITLE" : "Prosím vložte své heslo",
     "PASSWDWIND_CONTENT" : "Vaše heslo pro eqFTP:",
@@ -70,15 +70,15 @@ define({
     "SETTINGSWIND_GLOB_USERNAME_FIELD" : "FTP Uživatelské jméno",
     "SETTINGSWIND_GLOB_PASSWORD_TITLE" : "Heslo:",
     "SETTINGSWIND_GLOB_PASSWORD_FIELD" : "FTP heslo",
-    "SETTINGSWIND_GLOB_RSA_TITLE" : "RSA key", //NEW
-    "SETTINGSWIND_GLOB_RSA_FIELD" : "Click to select RSA key", //NEW
-    "SETTINGSWIND_GLOB_FOLDERFORRSA_DIAGTITLE" : "Choose path to RSA key", //NEW
+    "SETTINGSWIND_GLOB_RSA_TITLE" : "RSA klíč", //NEW
+    "SETTINGSWIND_GLOB_RSA_FIELD" : "Klikněte pro výběr RSA klíče", //NEW
+    "SETTINGSWIND_GLOB_FOLDERFORRSA_DIAGTITLE" : "Vyberte cestu k RSA klíči", //NEW
     "SETTINGSWIND_GLOB_REMOTEPATH_TITLE" : "Vzdálená cesta:",
     "SETTINGSWIND_GLOB_REMOTEPATH_FIELD" : "Vložte vzdálenou cestu do kořenové složky projektu",
     "SETTINGSWIND_GLOB_LOCALPATH_TITLE" : "Místní cesta:",
     "SETTINGSWIND_GLOB_LOCALPATH_FIELD" : "Pokud je ponecháno prázdné, vytvoří novou složku ve výchozím umístění",
     "SETTINGSWIND_GLOB_UPLOADONSAVE" : "Nahrát soubor při uložení",
-    "SETTINGSWIND_GLOB_UPLOADONSAVEPAUSED" : "Add to paused queue.", //NEW
+    "SETTINGSWIND_GLOB_UPLOADONSAVEPAUSED" : "Přidat k pozastavené frontě.", //NEW
     "SETTINGSWIND_GLOB_EVENDISCONN" : "I když je odpojeno",
     "SETTINGSWIND_GLOB_EVENDISCONN_EXPLAIN" : "Automatické připojení k serveru pokud je uložený soubor otevřen ze serveru nebo je uvnitř současného projektu který byl vytvořený tímto FTP rozšířením. Uf, vážně doufám že jsem to vysvětlil dobře...",
     "SETTINGSWIND_GLOB_LOCALPATH_FILLWPROJECT_TITLE" : "Vložit cestu současného projektu",
@@ -113,8 +113,8 @@ define({
     "SETTINGSWIND_GLOB_AUTO_SYNC_IGNORELIST_TITLE" : "Ignorovat seznam",
     "SETTINGSWIND_GLOB_AUTO_SYNC_IGNORELIST_EXPLAIN" : "Stejná syntaxe jako v .gitignore",
     "SETTINGSWIND_GLOB_SYNCLOCPROJWCONN" : "Open related Local project after switching connection and vice versa", //NEW
-    "SETTINGS_NOTIF_RELOADED" : "Settings were successfully reloaded.", //NEW
-    "SETTINGS_ERROR_RELOADED" : "Can't reload settings.", //NEW
+    "SETTINGS_NOTIF_RELOADED" : "Nastavní byla úspěšně znovu načtena.", //NEW
+    "SETTINGS_ERROR_RELOADED" : "Nemohu znovu načíst nastavení.", //NEW
 
     "QUEUE_TITLE" : "eqFTP fronta",
     "QUEUE_HEADER_NAME" : "Jméno",
@@ -123,19 +123,19 @@ define({
     "QUEUE_HEADER_TO" : "Cílová cesta",
     "QUEUE_HEADER_STATUS" : "Status",
     "QUEUE_CLEARQ" : "Vyčistit frontu",
-    "QUEUE_STARTQ" : "Start Queue", //NEW
-    "QUEUE_PAUSEQ" : "Pause Queue", //NEW
-    "QUEUE_RESTARTQ" : "Restart Failed", //NEW
-    "QUEUE_CONTEXTM_STARTT" : "Start", //NEW
-    "QUEUE_CONTEXTM_PAUSET" : "Pause", //NEW
-    "QUEUE_CONTEXTM_REMOVET" : "Remove", //NEW
-    "QUEUE_CONTEXTM_RESTARTT" : "Restart", //NEW
-    "QUEUE_TASK_STATUS_WAITING" : "Waiting", //NEW
-    "QUEUE_TASK_STATUS_SUCCESS" : "Done", //NEW
-    "QUEUE_TASK_STATUS_FAIL" : "Failed", //NEW
-    "QUEUE_TASK_STATUS_PAUSE" : "Paused", //NEW
-    "QUEUE_TASK_STATUS_STARTED" : "Started", //NEW
-    "QUEUE_TASK_STATUS_DELETED" : "Deleted", //NEW
+    "QUEUE_STARTQ" : "Spustit frontu", //NEW
+    "QUEUE_PAUSEQ" : "Pozastavit frontu", //NEW
+    "QUEUE_RESTARTQ" : "Restartování selhalo", //NEW
+    "QUEUE_CONTEXTM_STARTT" : "Spustit", //NEW
+    "QUEUE_CONTEXTM_PAUSET" : "Pauza", //NEW
+    "QUEUE_CONTEXTM_REMOVET" : "Odstranit", //NEW
+    "QUEUE_CONTEXTM_RESTARTT" : "Restartovat", //NEW
+    "QUEUE_TASK_STATUS_WAITING" : "Čekám", //NEW
+    "QUEUE_TASK_STATUS_SUCCESS" : "Hotovo", //NEW
+    "QUEUE_TASK_STATUS_FAIL" : "Chyba", //NEW
+    "QUEUE_TASK_STATUS_PAUSE" : "Pozastaveno", //NEW
+    "QUEUE_TASK_STATUS_STARTED" : "Spuštěno", //NEW
+    "QUEUE_TASK_STATUS_DELETED" : "Smazáno", //NEW
     "QUEUE_DONT_ADD_COMPLETED" : "Automaticky vyčistit dokončené úlohy", 
     
     "ERR_FILE_ACCESSDENIED" : "Přístup odepřen. Zkontrolujte oprávnění souboru.",
@@ -144,13 +144,13 @@ define({
     "ERR_FILE_SERVCANTREACH" : "Nemohu se připojit na server. Zkontrolujte Firewall.",
     "ERR_FILE_FILESIZE0" : "Nemohu stáhnout soubor. Velikost je 0.", 
     "ERR_FILE_DOWNLOAD" : "Nemohu stáhnout soubor.", 
-    "ERR_FILE_UPLOAD" : "Can't upload file.", //NEW
+    "ERR_FILE_UPLOAD" : "Nemohhu nahrát soubor.", //NEW
     "ERR_FILE_DOESNTEXIST" : "Soubor neexistuje.",
     "ERR_FILE_CANTRENAME" : "Nemohu přejmenovat soubor: ",
-    "ERR_FILE_CANTDELETE" : "Can't delete file: ", //NEW
-    "ERR_FILE_CANTCREATEDIR" : "Can't create folder: ", //NEW
-    "ERR_FILE_CANTDELETEDIR" : "Can't delete folder: ", //NEW
-    "ERR_FILE_CANTCREATEFILE" : "Can't create file: ", //NEW
+    "ERR_FILE_CANTDELETE" : "Nemohu smazat soubor: ", //NEW
+    "ERR_FILE_CANTCREATEDIR" : "Nemohu vytvořit složku: ", //NEW
+    "ERR_FILE_CANTDELETEDIR" : "Nemohu smazat složku: ", //NEW
+    "ERR_FILE_CANTCREATEFILE" : "Nemohu vytvořit soubor: ", //NEW
     "ERR_FOLDER_OPEN" : "Vznikla chyba při otevírání složky jako projekt.", 
 
     "CONTEXTM_DOWNLOAD" : "Stáhnout",
@@ -160,8 +160,8 @@ define({
     "CONTEXTM_DELETE" : "Smazat",
     "CONTEXTM_RENAME" : "Přejmenovat",
     "CONTEXTM_REDOWNLOAD" : "Stáhnout ze serveru",
-    "CONTEXTM_CREATEFILE" : "Create file", //NEW
-    "CONTEXTM_CREATEFOLDER" : "Create folder", //NEW
+    "CONTEXTM_CREATEFILE" : "Vytvořit soubor", //NEW
+    "CONTEXTM_CREATEFOLDER" : "Vytvořit adresář", //NEW
 
     "OTHER_SELECT_SERVER_DROPDOWN" : "Vyberte připojení na vzdálený server...",
     "OTHER_ERROR" : "Chyba",
@@ -177,7 +177,7 @@ define({
     "OTHER_CLOSE" : "Zavřít",
     "OTHER_DELETE" : "Smazat",
     "OTHER_CONFIRM_DELETE" : "Jste si jisti, že chcete smazat tuto položku",
-    "OTHER_CONFIRM_SETTINGSCLOSE" : "There are some unsaved changes that will be lost if you click OK.<br>Do you want to proceed?", //NEW
+    "OTHER_CONFIRM_SETTINGSCLOSE" : "Jsou zde některé neuložené změny, které ztratíte kliknutím na OK<br> Chcete přesto pokračovat?", //NEW
     "OTHER_ERROR_EVENDISCONN" : "Nemohu nahrát soubor. Nastavení 'I když je odpojeno' je zakázáno.", 
     "OTHER_ERROR_CANTREADSETTINGS" : "Nemohu načíst nastavení. Je možné, že jste zadali špatné hlavní heslo."
 });
